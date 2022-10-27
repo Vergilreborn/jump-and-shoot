@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mmx_idle.png-2d77cb382213f845d9812239564ffc82.stex"
+path="res://.import/MegamanX.png-24270ed849b3361f257d43d80fa289fd.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://ASSETS/player/mmx_idle.png"
-dest_files=[ "res://.import/mmx_idle.png-2d77cb382213f845d9812239564ffc82.stex" ]
+source_file="res://ASSETS/player/MegamanX.png"
+dest_files=[ "res://.import/MegamanX.png-24270ed849b3361f257d43d80fa289fd.stex" ]
 
 [params]
 
