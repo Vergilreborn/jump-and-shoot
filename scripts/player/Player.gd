@@ -36,7 +36,13 @@ func _physics_process(delta):
 	apply_gravity()
 	playerVelocity = move_and_slide(playerVelocity, Vector2.UP);
 	
+	
 	#Rather than a hard stop we can use the weight to slow the player down
 	#when they are on ice (3rd parameter weight in decimal as percentage)
 	playerVelocity.x = lerp(playerVelocity.x, 0, FRICTION);
 
+
+
+#A signal from the FallZone object
+func _on_FallZone_body_entered(body):
+	get_tree().change_scene("res://EmptyLevel.tscn");
